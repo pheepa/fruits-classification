@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 
 fruits_venv/
+
+data/
+*.pem

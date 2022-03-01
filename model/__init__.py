@@ -1,3 +1,3 @@
-from model import *
+from model.model import *
 
-__all__ = []
+__all__ = ['get_model']
