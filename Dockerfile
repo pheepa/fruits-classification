@@ -1,7 +1,7 @@
 FROM python:3.6-slim
-COPY ./app.py /deploy/
+ADD ./app /deploy/
 COPY ./requirements.txt /deploy/
-COPY ./weights/weights_dense.wght /deploy/weights/
+COPY ./configs/class2name.json /deploy/configs/
 WORKDIR /deploy/
 RUN python -m pip install --upgrade pip
 RUN pip3 install -r requirements.txt
