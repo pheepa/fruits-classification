@@ -1,5 +1,4 @@
 # fruits-classification
-# Docker Container Name
 
 fruits-classification docker container based on FastAPI, that can predict class of your uploaded image.
 
@@ -29,6 +28,11 @@ docker build fruits-classification .
 docker run -dp 8000:8000 fruits-classification
 ```
 
+#### Example of work
+
+![Example of prediction](images/ex1.png "Example of prediction")
+
+
 
 #### Useful File Locations
 
@@ -39,4 +43,5 @@ docker run -dp 8000:8000 fruits-classification
 
 ## Authors
 
-* **Abapolov Filipp** - *Initial work* - [pheepa](https://github.com/pheepa)
+* **Abapolov Filipp** - *Dev* - [pheepa](https://github.com/pheepa)
+* **Stovbun Ilya** - *Manager* 
