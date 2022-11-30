@@ -26,7 +26,7 @@ List the different parameters available to your container
 
 ```shell
 docker build fruits-classification .
-docker run fruits-classification
+docker run -dp 8000:8000 fruits-classification
 ```
 
 
